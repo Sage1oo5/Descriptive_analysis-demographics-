@@ -1,0 +1,22 @@
+## Required Software and Packages
+
+### Software
+To run this project, ensure you have the following software installed:
+1. **R**: Version 4.0 or later. Download from [CRAN](https://cran.r-project.org/).
+2. **RStudio** (optional): An integrated development environment (IDE) for R. Download from [RStudio](https://www.rstudio.com/).
+
+### R Packages
+The following R packages are required for this project:
+
+| Package   | Description                                        | Installation Command                     |
+|-----------|----------------------------------------------------|------------------------------------------|
+| `dplyr`   | A grammar of data manipulation.                   | `install.packages("dplyr")`             |
+| `ggplot2` | Elegant graphics for data visualization.           | `install.packages("ggplot2")`           |
+| `corrplot`| Visualization of correlation matrices.             | `install.packages("corrplot")`          |
+| `GGally`  | Extension to ggplot2, providing additional tools.  | `install.packages("GGally")`            |
+| `reshape` | Flexible restructuring and aggregation of data.    | `install.packages("reshape")`           |
+
+### Install All Packages at Once
+To install all required packages in one go, use this command in R:
+```r
+install.packages(c("dplyr", "ggplot2", "corrplot", "GGally", "reshape"))
