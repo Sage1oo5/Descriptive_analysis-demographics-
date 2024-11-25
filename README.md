@@ -21,9 +21,12 @@ The project involves data preprocessing, statistical analysis, and visualization
    - Investigate relationships between variables, such as **Median Age** and **Infant Mortality Rate**.
 
 ---
-
 ## Dataset Description
+- **Source**: [U.S. Census Bureau International Data Base](https://www.census.gov/programs-surveys/international-programs/about/idb.html)
+- **License**: See the [terms of use](https://www.census.gov/programs-surveys/international-programs/about/idb.html#usage).
+
 The dataset includes demographic data for **227 countries**, stratified into five regions and 21 subregions. It provides:
+
 - **Categorical Variables**: Country, Region, Subregion.
 - **Numerical Variables**: 
   - Median Age (by gender),
@@ -112,6 +115,20 @@ The analysis yielded the following key observations:
   - Increased globally from **25.5 years (2003)** to **32.0 years (2023)**, reflecting an aging population.
 - **Infant Mortality Rate**:
   - Declined significantly from **19.6 deaths (2003)** to **11.9 deaths (2023)**, indicating improved health outcomes.
+ 
+
+## References
+
+1. U.S. Census Bureau. [International Data Base (IDB)](https://www.census.gov/programs-surveys/international-programs/about/idb.html).
+2. Hadley Wickham et al. *dplyr: A Grammar of Data Manipulation* (Version 1.1.2). [CRAN R Package](https://CRAN.R-project.org/package=dplyr), 2023.
+3. Hadley Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2016. [ggplot2 Documentation](https://ggplot2.tidyverse.org/).
+4. Taiyun Wei and Viliam Simko. *corrplot: Visualization of a Correlation Matrix* (Version 0.92). [GitHub Repository](https://github.com/taiyun/corrplot), 2021.
+5. Barrett Schloerke et al. *GGally: Extension to ggplot2* (Version 2.1.2). [CRAN R Package](https://CRAN.R-project.org/package=GGally), 2021.
+6. Hadley Wickham. *Reshaping Data with the reshape Package*. *Journal of Statistical Software*, 21(12), 2007. [Journal Article](https://www.jstatsoft.org/v21/i12/).
+
+ 
+## License
+This project is licensed under the [MIT License](LICENSE)
 
 
 
